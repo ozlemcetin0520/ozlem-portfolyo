@@ -4,144 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Özlem Çetin - Portfolyo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <div class="logo">Özlem Çetin</div>
-        <div class="hamburger" id="hamburger-menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        
         <nav>
             <ul id="nav-links">
                 <li><a href="#hakkimda">Hakkımda</a></li>
-                <li><a href="#projeler">Projeler</a></li> <li><a href="#iletisim">İletişim</a></li>
+                <li><a href="#projeler">Projeler</a></li> 
                 <li><a href="#deneyim">Deneyim</a></li>
                 <li><a href="#yetkinlikler">Yetkinlikler</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
             </ul>
         </nav>
+
+        <div class="header-controls">
+            <button id="theme-toggle" class="icon-btn" title="Karanlık Mod"><i class="fas fa-moon"></i></button>
+            <button id="lang-toggle" class="lang-btn" title="Dil Değiştir">EN</button>
+            <div class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </header>
 
     <section id="hakkimda" class="hero">
-        <img src="images/profil.jpeg" alt="Profil Resmi" class="profil-foto">
-        <h1>Merhaba, Ben Özlem</h1>
-        <p>İnternet ve Ağ Teknolojileri Bölümü öğrencisiyim. Siber Güvenlik ve Ağ Teknolojileri/Yapıları ile ilgileniyorum.</p>
-    </section>
-
-    <section id="projeler">
-        <h2>Projelerim & Derslerim</h2>
-        <div class="proje-kartlari">
-            <div class="kart">
-                <h3>Veri Tabanı Projesi</h3>
-                <p>SQL kullanarak geliştirdiğim stok takip sistemi.</p>
-            </div>
-            <div class="kart">
-                <h3>Ağ Teknolojileri</h3>
-                <p>Sunucu yönetimi ve penetrasyon testleri üzerine çalışmalar.</p>
-            </div>
-             <div class="kart">
-                <h3>Kurumsal Ağ Tasarımı</h3>
-                <p>Cisco Packet Tracer kullanarak sanal bir şirketin yerel ağ (LAN) ve WLAN yapılandırmasının simülasyonu.</p>
-            </div>
+        <img src="images/profil.jpeg" alt="Özlem Çetin" class="profil-foto">
+        <h1>Merhaba, Ben Özlem 👋</h1>
+        <p>İnternet ve Ağ Teknolojileri öğrencisiyim. <br> Siber Güvenlik, Ağ Yönetimi ve Web Teknolojileri üzerine kendimi geliştiriyorum.</p>
+        <div class="sosyal-ikonlar">
+            <a href="https://www.linkedin.com/in/ozlem-cetin-teknoloji" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ozlemcetin0520" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:cetinozlem0520@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
     </section>
 
-    <section id="iletisim">
-        <div class="container">
-            <h2>İletişim</h2> <div class="iletisim-kutu">
-                
-                <p>Sorularınız ve iş birliği fırsatları için benimle iletişime geçebilirsiniz.</p>
-                
-                <div class="iletisim-detaylari">
-                    <div class="bilgi-satiri">
-                        <strong>📍 Adres:</strong> Sancaktepe / İstanbul
-                    </div>
-                    <div class="bilgi-satiri">
-                        <strong>📧 E-posta:</strong> <a href="mailto:cetinozlem0520@gmail.com">cetinozlem0520@gmail.com</a>
-                    </div>
-                    <div class="bilgi-satiri">
-                        <strong>📞 Telefon:</strong> <a href="tel:+905426381261">+90 542 638 12 61</a>
-                    </div>
-                </div>
-
-                <div class="sosyal-medya">
-                    <a href="www.linkedin.com/in/ozlem-cetin-teknoloji" target="_blank" class="btn-linkedin">LinkedIn Profilim</a>
-                </div>
-
+    <section id="projeler">
+        <h2>Projelerim & Çalışmalarım</h2>
+        <div class="proje-kartlari">
+            <div class="kart">
+                <div class="kart-ikon"><i class="fas fa-database"></i></div>
+                <h3>Veri Tabanı Projesi</h3>
+                <p>SQL kullanarak geliştirdiğim, stok takibi ve veri analizi yapabilen yönetim sistemi.</p>
+            </div>
+            <div class="kart">
+                <div class="kart-ikon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Ağ & Güvenlik</h3>
+                <p>Sunucu yönetimi, penetrasyon testleri ve ağ güvenliği üzerine uygulamalı çalışmalar.</p>
+            </div>
+             <div class="kart">
+                <div class="kart-ikon"><i class="fas fa-network-wired"></i></div>
+                <h3>Kurumsal Ağ Tasarımı</h3>
+                <p>Cisco Packet Tracer ile sanal şirket ağ topolojisi, VLAN ve WLAN yapılandırması.</p>
             </div>
         </div>
     </section>
 
     <section id="deneyim">
-        <h2>İş Deneyimi</h2>
+        <h2>İş & Staj Deneyimi</h2>
         <div class="timeline-container">
             
             <div class="deneyim-kart">
                 <div class="tarih-etiketi">Ocak 2024 - Mayıs 2024</div>
                 <h3>L2 Technical Support Specialist</h3>
-                <h4>TP-Link Turkey</h4>
+                <h4>TP-Link Türkiye / İstanbul</h4>
                 <ul>
-                    <li>Kurumsal ve temel ağ cihazları hakkında müşterilere yapılandırma desteği sağlandı.</li>
-                    <li>Yeni temsilci eğitimleri verildi.</li>
-                    <li>Ek Network yapılandırmaları gerçekleştirildi.</li>
+                    <li>Karmaşık ağ sorunlarının analizi ve çözümü.</li>
+                    <li>Ağ güvenliği ve VPN yapılandırmaları.</li>
+                    <li>Switch, Modem, Router cihazlarının yapılandırılması.</li>
                 </ul>
             </div>
 
             <div class="deneyim-kart">
                 <div class="tarih-etiketi">Ağustos 2023 - Ocak 2024</div>
-                <h3>Call Center Agent</h3>
-                <h4>TP-Link Turkey</h4>
+                <h3>Call Center Agent (Remote)</h3>
+                <h4>TP-Link Türkiye</h4>
                 <ul>
-                    <li>Müşteri hizmetlerinde ağ cihazları kurulumu ve yapılandırması üzerine (uzaktan) destek sağlandı.</li>
-                    <li>Müşteri memnuniyeti odaklı teknik çözüm üretildi.</li>
+                    <li>DNS yapılandırmaları ve temel ağ desteği.</li>
+                    <li>Müşteri taleplerinin karşılanması ve teknik yönlendirme.</li>
                 </ul>
             </div>
 
             <div class="deneyim-kart">
                 <div class="tarih-etiketi">Mart 2023 - Haziran 2023</div>
                 <h3>Stajyer - Web Yönetimi</h3>
-                <h4>Ensim Sensors</h4>
+                <h4>Ensim Sensors / İstanbul</h4>
                 <ul>
-                    <li>WordPress uzmanlığı ve kurum web sitesi yönetimi.</li>
+                    <li>WordPress tabanlı web sitesi tasarımı ve yönetimi.</li>
                     <li>Ofis programlarının etkin kullanımı.</li>
                 </ul>
             </div>
 
             <div class="deneyim-kart">
-                <div class="tarih-etiketi">2022 - 2023</div>
-                <h3>Stajyer - İdari İşler</h3>
-                <h4>Teknopalas Yüksek Teknoloji Sistemleri A.Ş.</h4>
+                <div class="tarih-etiketi">Kasım 2022 - Aralık 2022</div>
+                <h3>Erasmus+ Software Intern</h3>
+                <h4>Info Alberghi srl / İtalya 🇮🇹</h4>
                 <ul>
-                    <li>İnsan Kaynakları, Muhasebe ve Sekreterlik departmanlarında deneyim kazanıldı.</li>
+                    <li>Uluslararası çalışma ortamında teknik destek deneyimi.</li>
+                    <li>Ağ yapılandırmaları ve yazılım süreçlerine destek.</li>
+                </ul>
+            </div>
+
+            <div class="deneyim-kart">
+                <div class="tarih-etiketi">Eylül 2022 - Mart 2023</div>
+                <h3>Stajyer - İdari İşler</h3>
+                <h4>Teknopalas Yüksek Teknoloji Sistemleri</h4>
+                <ul>
+                    <li>İnsan Kaynakları ve operasyonel süreçlere destek.</li>
                 </ul>
             </div>
 
         </div>
     </section>
 
-    <section id="yetkinlikler" style="padding: 40px 20px; text-align: center;">
-        <h2 style="color: #2c3e50;">Yetkinlikler & Sertifikalar</h2>
+    <section id="yetkinlikler">
+        <h2>Yetkinlikler & Sertifikalar</h2>
         
-        <div class="yetkinlik-listesi">
-            <span class="etiket">Network & Ağ Yönetimi</span>
-            <span class="etiket">Cisco Packet Tracer (CCNA)</span>
-            <span class="etiket">Switch & Router Yapılandırma</span>
-            <span class="etiket">WordPress</span>
-            <span class="etiket">Teknik Destek (L2-L3)</span>
-            <span class="etiket">İngilizce (A2-B1)</span>
+        <div class="yetkinlik-kategorisi">
+            <h3><i class="fas fa-code"></i> Yazılım & Web</h3>
+            <div class="etiket-havuzu">
+                <span class="etiket">Python</span>
+                <span class="etiket">HTML5 & CSS3</span>
+                <span class="etiket">JavaScript</span>
+                <span class="etiket">WordPress</span>
+                <span class="etiket">Microsoft SQL</span>
+            </div>
         </div>
 
-        <div class="sertifikalar" style="margin-top: 30px;">
-            <h3>Sertifikalarım</h3>
-            <p>CCNA Cisco Sertifikası (Eğitim)</p>
-            <p>Ağ İşletmenliği ve Siber Güvenlik Diploması</p>
+        <div class="yetkinlik-kategorisi">
+            <h3><i class="fas fa-server"></i> Ağ & Sistem</h3>
+            <div class="etiket-havuzu">
+                <span class="etiket">Network Güvenliği</span>
+                <span class="etiket">TCP/IP & OSI</span>
+                <span class="etiket">VPN Yapılandırması</span>
+                <span class="etiket">Cisco Packet Tracer</span>
+                <span class="etiket">Linux (Temel)</span>
             </div>
+        </div>
+
+        <div class="sertifikalar-kutusu">
+            <h3>Sertifikalar</h3>
+            <ul>
+                <li>CCNAv7: Introduction to Networks – Cisco (2022)</li>
+                <li>Siber Güvenliğe Giriş Eğitimi – Stardust (2025)</li>
+                <li>ISO 9001:2015 Quality Management System (2025)</li>
+                <li>Python Programming 101-401 – Turkcell Geleceği Yazanlar</li>
+            </ul>
+        </div>
     </section>
+
+    <section id="iletisim">
+        <div class="container">
+            <h2>İletişim</h2> 
+            <div class="iletisim-kutu">
+                <p>Projeleriniz veya sorularınız için benimle iletişime geçebilirsiniz.</p>
+                
+                <div class="iletisim-bilgileri">
+                    <div class="bilgi">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Sancaktepe / İstanbul</span>
+                    </div>
+                    <div class="bilgi">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:cetinozlem0520@gmail.com">cetinozlem0520@gmail.com</a>
+                    </div>
+                    <div class="bilgi">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/ozlem-cetin-teknoloji" target="_blank">LinkedIn Profilim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Özlem Çetin. Tüm Hakları Saklıdır.</p>
+        <div class="footer-links">
+            <a href="https://github.com/ozlemcetin0520" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ozlem-cetin-teknoloji" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
     
     <script src="script.js"></script>
 </body>
-
 </html>
