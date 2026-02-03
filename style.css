@@ -370,3 +370,21 @@ footer a { color: white; margin: 0 5px; font-size: 1.2rem; }
     color: white;
 }
 
+/* --- BAŞLIK ORTALAMA KESİN ÇÖZÜM --- */
+#deneyim {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#deneyim h2 {
+    text-align: center !important; 
+    width: 100%; 
+    display: block;
+    margin-bottom: 40px; 
+}
+
+.timeline-container {
+    width: 100%; 
+    max-width: 800px; 
+}
